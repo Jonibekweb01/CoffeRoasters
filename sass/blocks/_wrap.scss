@@ -1,0 +1,131 @@
+.wrap {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.wrap__box {
+    background-image: url('../Images/bgi-4.png');
+    width: 100%;
+    height: 570px;
+    margin-bottom: 250px;
+    padding: 20px 0 0 0;
+}
+
+
+.wrapper {
+    position: relative;
+}
+
+.wrap__box::before {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc( 50% - 750px);
+    display: block;
+    width: 199px;
+    height: 194px;
+    background-size: contain;
+    background-image: url('../Images/coffe.svg');
+    background-repeat: no-repeat;
+    z-index: 1;
+    content: '';
+}
+
+.wrapper__box {
+    width: 581px;
+    margin: 0 auto;
+    padding: 50px 0 80px 0;
+    text-align: center;
+}
+
+.wrapper__title {
+    font-weight: 700;
+    font-size: 50px;
+    color: $main-color;
+    font-variant: small-caps;
+    margin: 0 0 10px 0;
+}
+
+.wrapper__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $main-color;
+    margin: 0;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.wrapper__list {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wrappper__item{
+    width: 420px;
+    margin: 0 35px 0 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:nth-child(3) {
+        margin: 0;
+    }
+
+    &:hover {
+        background-color: $main-links-color;
+    }
+}
+
+
+.wrapper__img {
+    margin-bottom: 28px;
+}
+
+.list__info {
+    padding: 0px 20px 20px 20px;
+}
+
+.list__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    color: $main-titles-color;
+    margin: 0 0 10px 0;
+    transition: all 0.3s ease;
+}
+
+.wrappper__item:hover .list__title {
+    color: $main-color;
+}
+
+.list__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $main-titles-color;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+.wrappper__item:hover .list__text {
+    color: $main-color;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .wrap__box::before {
+        background-image: url('../Images/sticker@2x.png');
+    }
+}

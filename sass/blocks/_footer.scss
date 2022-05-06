@@ -1,0 +1,54 @@
+/* FOOTER QISMI */
+
+footer {
+    background-image: url('../Images/Rectanglee.png');
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0 70px 0;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 40px;
+}
+
+.nav__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $main-titles-color;
+}
+
+.nav__listicon {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__itemicon {
+    margin-right: 30px;
+}
+
+
+.nav__itemicon:nth-child(3) {
+    margin-right: 0;
+}

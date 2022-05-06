@@ -1,0 +1,72 @@
+.about__inner {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.about__inner::before {
+    display: block;
+    position: absolute;
+    top: calc(52px);
+    right: calc(50% + 490px);
+    background-image: url('../Images/bgi-1.png');
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 300px;
+    content: "";
+}
+
+.about__inner__box {
+    background-image: url('../Images/bgi.png');  
+    background-size: contain;
+    padding: 160px 0;  
+}
+
+
+.about__inner__big__info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    width: 1380px;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+}
+
+.about__inner__info {
+    width: 626px;
+}
+
+
+.about__inner__info__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: $main-titles-color;
+    margin: 0 0 10px 0;
+}
+
+
+.about__inner__info__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $main-titles-color;
+    margin: 0;   
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .about__inner::before {
+        background-image: url('../Images/bgi-1@2x.png');
+    }
+}

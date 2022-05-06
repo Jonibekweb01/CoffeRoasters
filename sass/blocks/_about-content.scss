@@ -1,0 +1,110 @@
+.about__content {
+    position: relative;
+    padding: 20px;
+}
+
+.about__box {
+    background-image: url('../Images/bgi-works.png');
+    margin-bottom: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.about__box__title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: $main-color;
+    margin: 0 0 80px 0;
+}
+
+.about__content__list {
+    display: flex;
+    margin: 0 0 60px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about__content__list__item {
+    width: 433px;
+    margin-right: 20px;
+    padding: 20px 24px 40px 20px;
+    background: $box-background-color;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    
+    &:hover {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        height: 348px;
+        text-align: center;
+        background-color: #c19c67e7;
+    }
+    &:nth-child(3) {
+        margin-right: 0;
+    }
+}
+
+.about__content__list__img {
+    margin-left: 250px;
+    transition: 0.2s ease;
+}
+
+.about__content__list__item:hover .about__content__list__img {
+    display: none;
+}
+
+.about__content__list__item:hover .about__content__list__span {
+    color: $main-color;
+}
+
+.about__content__info {
+    width: 158px;
+}
+
+.about__content__list__item:hover .about__content__info {
+    width: 358px;
+}
+
+.about__content__list__title {
+    font-weight: 500;
+    font-size: 40px;
+    color: $main-titles-color;
+    margin: 0 0 10px 0;
+    transition: all 0.2s ease;
+}
+
+.about__content__list__item:hover .about__content__list__title {
+    color: $main-color;
+}
+
+.about__content__list__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $main-titles-color;
+    margin: 0;
+    transition: all 0.2s ease;
+}
+
+.about__content__list__item:hover .about__content__list__text {
+    color: $main-color;
+}
+
+.about__content__link__box {
+    text-align: center;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .box::before {
+        background-image: url("../Images/coffe@2x.svg");
+    }
+}

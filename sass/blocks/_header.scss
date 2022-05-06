@@ -1,0 +1,42 @@
+header {
+    background-image: url("../images/Rectanglee.png");
+}
+
+.hero__box {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero__nav {
+    margin-left: auto;
+}
+
+.hero__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero__list__item {
+    margin-right: 40px;
+}
+
+.hero__list__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.hero__list__link {
+    text-decoration: none;
+    color: $main-titles-color;
+    font-weight: 700;
+    font-size: 12px;
+    transition: 0.2s;
+
+    &:hover {
+        color: #0A775F;
+    }
+}
+
+/* HEADER-QISMI TUGADI */

@@ -1,0 +1,83 @@
+.holder {
+    background-image: url("../images/img-of-site.png");
+    background-size: 710px 696px;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 400px) calc(0px);
+}
+
+.holder__box {
+    position: relative;
+    padding: 110px 0px 306px 84px;
+}
+
+.holder__box__left {
+    width: 464px;
+}
+
+.holder__box__left::after {
+    position: absolute;
+    bottom: calc(50% + 270px);
+    right: calc(50% - 130px);
+    display: block;
+    background-image: url("../images/first-coffe.svg");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    transform: rotate(-25deg);
+    content: '';
+}
+
+
+.holder__box__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.holder__box__text {
+    margin: 0 0 40px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.holder__box__link {
+    text-decoration: none;
+    color: $main-color;
+    font-weight: 500;
+    font-size: 16px;
+    background: #0A775F;
+    border-radius: 100px;
+    padding: 16px 24px;
+    border-radius: 50px;
+    transition: all 0.2s;
+    
+    &:hover {
+        background-color: $main-color;
+        color: #0A775F;
+    }
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .holder {
+        background-image: url("../images/img-of-site@2x.png");
+    }
+    
+    .holder__box__left::after {
+        background-image: url("../images/first-coffe@2x.svg");
+    }
+}
+
+
+
+/*--------------------------------TUGADI BU QISMI------------------------------ */
