@@ -5,6 +5,7 @@
             "extensionName": ".css",
             "savePath": "/css"
         }
-    ]
+    ],
+    "svn.ignoreMissingSvnWarning": true
 }
 
