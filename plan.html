@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>CoffeRoasters</title>
 </head>
 <body>
-    
     <header>
         <section class="hero">
             <h1 class="visually-hidden">Nimadir</h1>
@@ -98,7 +97,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="plan__inner">
             <div class="plan__inner__box">
                 <div class="container">
@@ -120,111 +119,169 @@
                                 <a href="#" class="big__link link">05 Deliveries</a>
                             </li>
                         </ul>
-                        <div class="big__box">
-                            <div class="big__box__item item">
-                                <div class="item__info">
-                                    <h2 class="item__title">How do you drink your coffee?</h2>
-                                    <img src="./Images/drop-down.svg" alt="dropdown" width="40" height="40">
+                        <div class="big__form">
+                            <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                                <div class="form__box__info">
+                                    <h3 class="form__box__info__title">How do you drink your coffee?</h3>
+                                    <img src="./Images/drop-down.svg" alt="down" width="40" height="40">
                                 </div>
-                                <ul class="item__list">
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Capsule</h3>
-                                        <p class="item__text">Compatible with Nespresso systems and similar brewers</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Filter</h3>
-                                        <p class="item__text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Espresso</h3>
-                                        <p class="item__text">Dense and finely ground beans for an intense, flavorful experience</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="big__box__item item">
-                                <div class="item__info">
-                                    <h2 class="item__title">What type of coffee?</h2>
-                                    <img src="./Images/drop-down.svg" alt="dropdown" width="40" height="40">
+                                <div class="big__form__box form__box">  
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Capsule">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Capsule</strong>
+                                            <span class="label__box__text">Compatible with Nespresso systems and similar brewers brewers</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Espresso">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Espresso</strong>
+                                            <span class="label__box__text">For pour over or drip methods like Aeropress, Chemex, and V60  Chemex</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Filter">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Filter</strong>
+                                            <span class="label__box__text">Dense and finely ground beans for an intense, flavorful experience</span>
+                                        </span>     
+                                    </label>
                                 </div>
-                                <ul class="item__list">
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Single Origin</h3>
-                                        <p class="item__text">Distinct, high quality coffee from a specific family-owned farm</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Decaf</h3>
-                                        <p class="item__text">Just like regular coffee, except the caffeine has been removed</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Blended</h3>
-                                        <p class="item__text">Combination of two or three dark roasted beans of organic coffees</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="big__box__item item">
-                                <div class="item__info">
-                                    <h2 class="item__title">How much would you like?</h2>
-                                    <img src="./Images/drop-down.svg" alt="dropdown" width="40" height="40">
+                                <button type="submit" class="visually-hidden">Submit</button>
+                            </form>
+                            
+                            <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                                <div class="form__box__info">
+                                    <h3 class="form__box__info__title">What type of coffee?</h3>
+                                    <img src="./Images/drop-down.svg" alt="down" width="40" height="40">
                                 </div>
-                                <ul class="item__list">
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">250g</h3>
-                                        <p class="item__text">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">500g</h3>
-                                        <p class="item__text">Perfect option for a couple. Yields about 40 delectable cups.</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">1000g</h3>
-                                        <p class="item__text">Perfect for offices and events. Yields about 90 delightful cups.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="big__box__item item">
-                                <div class="item__info">
-                                    <h2 class="item__title">Want us to grind them?</h2>
-                                    <img src="./Images/drop-down.svg" alt="dropdown" width="40" height="40">
+                                <div class="big__form__box form__box">  
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="What type of coffee?" value="Single Origin">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Single Origin</strong>
+                                            <span class="label__box__text">Compatible with Nespresso systems and similar brewers brewers</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="What type of coffee?" value="Decaf">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Decaf</strong>
+                                            <span class="label__box__text">For pour over or drip methods like Aeropress, Chemex, and V60  Chemex</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="What type of coffee?" value="Blended">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Blended</strong>
+                                            <span class="label__box__text">Dense and finely ground beans for an intense, flavorful experience</span>
+                                        </span>     
+                                    </label>
                                 </div>
-                                <ul class="item__list">
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Wholebean</h3>
-                                        <p class="item__text">Best choice if you cherish the full sensory experience</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Filter</h3>
-                                        <p class="item__text">For drip or pour-over coffee methods such as V60 or Aeropress</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Cafetiére</h3>
-                                        <p class="item__text">Course ground beans specially suited for french press coffee</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="big__box__item item">
-                                <div class="item__info">
-                                    <h2 class="item__title">How often should we deliver?</h2>
-                                    <img src="./Images/drop-down.svg" alt="dropdown" width="40" height="40">
+                                <button type="submit" class="visually-hidden">Submit</button>
+                            </form>
+                            
+                            <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                                <div class="form__box__info">
+                                    <h3 class="form__box__info__title">How much would you like?</h3>
+                                    <img src="./Images/drop-down.svg" alt="down" width="40" height="40">
                                 </div>
-                                <ul class="item__list">
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Every week</h3>
-                                        <p class="item__text">$7.20 per shipment. Includes free first-class shipping.</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Every 2 weeks</h3>
-                                        <p class="item__text">$9.60 per shipment. Includes free priority shipping.</p>
-                                    </li>
-                                    <li class="item__list__item">
-                                        <h3 class="item__titles">Every month</h3>
-                                        <p class="item__text">$12.00 per shipment. Includes free priority shipping.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="big__box__order order">
+                                <div class="big__form__box form__box">  
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How much would you like?" value="250g">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">250g</strong>
+                                            <span class="label__box__text">Compatible with Nespresso systems and similar brewers brewers</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How much would you like?" value="500g">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">500g</strong>
+                                            <span class="label__box__text">For pour over or drip methods like Aeropress, Chemex, and V60  Chemex</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How much would you like?" value="1000g">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">1000g</strong>
+                                            <span class="label__box__text">Dense and finely ground beans for an intense, flavorful experience</span>
+                                        </span>     
+                                    </label>
+                                </div>
+                                <button type="submit" class="visually-hidden">Submit</button>
+                            </form>
+                            
+                            <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                                <div class="form__box__info">
+                                    <h3 class="form__box__info__title">Want us to grind them?</h3>
+                                    <img src="./Images/drop-down.svg" alt="down" width="40" height="40">
+                                </div>
+                                <div class="big__form__box form__box">  
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="Want us to grind them?" value="Wholebean">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Wholebean</strong>
+                                            <span class="label__box__text">Compatible with Nespresso systems and similar brewers brewers</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="Want us to grind them?" value="Filter">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Filter</strong>
+                                            <span class="label__box__text">For pour over or drip methods like Aeropress, Chemex, and V60  Chemex</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="Want us to grind them?" value="Cafetiére">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Cafetiére</strong>
+                                            <span class="label__box__text">Dense and finely ground beans for an intense, flavorful experience</span>
+                                        </span>     
+                                    </label>
+                                </div>
+                                <button type="submit" class="visually-hidden">Submit</button>
+                            </form>
+                            
+                            <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                                <div class="form__box__info">
+                                    <h3 class="form__box__info__title">How often should we deliver?</h3>
+                                    <img src="./Images/drop-down.svg" alt="down" width="40" height="40">
+                                </div>
+                                <div class="big__form__box form__box">  
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Every week">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Every week</strong>
+                                            <span class="label__box__text">Compatible with Nespresso systems and similar brewers brewers</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Every 2 weeks">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Every 2 weeks</strong>
+                                            <span class="label__box__text">For pour over or drip methods like Aeropress, Chemex, and V60  Chemex</span>
+                                        </span>
+                                    </label>
+                                    <label class="form__box__label label">
+                                        <input class="visually-hidden input" type="radio" name="How do you drink your coffee?" value="Every month">
+                                        <span class="label__box">
+                                            <strong class="label__box__title">Every month</strong>
+                                            <span class="label__box__text">Dense and finely ground beans for an intense, flavorful experience</span>
+                                        </span>     
+                                    </label>
+                                </div>
+                                <button type="submit" class="visually-hidden">Submit</button>
+                            </form>
+                            <div class="order">
                                 <h4 class="order__title">Order Summary</h4>
-                                <p class="order__text">“I drink my coffee as    <span class="order__span">Filter,</span> with a <span class="order__span">Decaf,</span> type of bean. <span class="order__span">250g, </span>ground ala Cafetiére, sent to me <span class="order__span">Every Week.”</span></p>
+                                <p class="order__text">
+                                    “I drink my coffee as <span>Filter,</span>span> with a <span>Decaf,</span>span> type of bean. <span>250g,</span>span> ground ala <span>Certifac,</span>span>, sent to me Every Week.”
+                                </p>
                             </div>
+
+                            <button class="form__btn" type="submit">Create Me Plan</button>
                         </div>
                     </div>
                 </div>
@@ -267,6 +324,5 @@
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
