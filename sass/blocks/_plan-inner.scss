@@ -74,9 +74,6 @@
     border-bottom: 3px dashed #C99B67;
 }
 
-.form {
-    margin-bottom: 60px;
-}
 
 .form__box__info {
     display: flex;
@@ -91,6 +88,10 @@
         color: #000000;
         margin: 0 44px 0 0;
     }
+}
+
+.plan__div {
+    margin-bottom: 60px;
 }
 
 .form__box {
